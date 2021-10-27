@@ -188,11 +188,12 @@
           
 			</div>
 			<div class="video">
-				<video id="video" autoplay="" width="100%" height="100%"></video>
+				<video id="video" autoplay="" playsinline="" width="100%" height="100%"></video>
 				<script>
 						window.addEventListener("DOMContentLoaded", function() {
 							var video = document.getElementById("video");
 							var mediaConfig =  { video: { width: { ideal: 1920 }, height: { ideal: 1080 } } }; /* Funciona en formato no HD */
+							// mediaConfig =  { video: { facingMode: "user" } }; /* Funciona en formato no HD */
 							var errBack = function(e) { console.log("An error has occurred!", e) };
 							// Put video listeners into place
 							if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
