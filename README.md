@@ -1,4 +1,4 @@
-My landing page can be seen at: https://erictrogneux.github.io/
+My GitHub landing page is at: https://erictrogneux.github.io/
 
 - 👋 Hi, I’m @erictrogneux
 - 👀 I’m interested in building search tools that mimic the way our memory works 
